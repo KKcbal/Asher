@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 
 <html lang="en-US">
@@ -105,15 +108,15 @@
     margin: 10px;
     padding: 20px;
   }
-  body {
-    background-image: url(background.png);
+  .altersize {
+    opacity: 0;
   }
 </style>
 </head>
 <body>
   
   <div class="bigflexbox" style="height: 500px;">
-    <div style="flex-grow: 1;flex-shrink: 0;background-color: White;"></div>
+    <div class="altersize" style="flex-grow: 1;flex-shrink: 0;"></div> 
     <div id="emptu" class="terminalbox" style="flex-grow: 8">
         <p id="terminal">THIS IS THE TERMINAL <br> TYPE "PLAY" TO PLAY</p>
         <div id="stats">
@@ -125,13 +128,13 @@
           <p id="kithp" style="display: none;">MR. KITTY: 7</p>
         </div>
     </div>
-    <div style="flex-grow: 1;flex-shrink: 0;background-color: White;"></div>  
+    <div class="altersize" style="flex-grow: 1;flex-shrink: 0;"></div>   
   </div>
 
   <div class="inputflexbox">
-    <div style="flex-grow: 1;flex-shrink: 0;background-color: White;"></div>
+    <div class="altersize" style="flex-grow: 1;flex-shrink: 0;"></div> 
     <input class="uc-text-smooth" type="text" id="textinput" style="flex-grow: 4;"></input>
-    <div style="flex-grow: 1;flex-shrink: 0;background-color: White;"></div>
+    <div class="altersize" style="flex-grow: 1;flex-shrink: 0;"></div> 
   </div>
   <div class="popup" id="signin">
     <form action="javascript:create_piss()">
