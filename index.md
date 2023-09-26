@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Student Blog
+image: images/asher-concerned.jpg
 ---
 # Hello Asher fans
 Welcome to the Asher fan page
